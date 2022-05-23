@@ -35,10 +35,10 @@ namespace W13Praktikum
             this.buttonNext = new System.Windows.Forms.Button();
             this.labelPlayerID = new System.Windows.Forms.Label();
             this.labelPlayerName = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.labelNationality = new System.Windows.Forms.Label();
+            this.labelBirthdate = new System.Windows.Forms.Label();
+            this.labelTeamNumber = new System.Windows.Forms.Label();
+            this.labelTeam = new System.Windows.Forms.Label();
             this.buttonSave = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.comboBoxTeam = new System.Windows.Forms.ComboBox();
@@ -109,41 +109,41 @@ namespace W13Praktikum
             this.labelPlayerName.TabIndex = 5;
             this.labelPlayerName.Text = "Player Name";
             // 
-            // label3
+            // labelNationality
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(126, 261);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 17);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Nationality";
+            this.labelNationality.AutoSize = true;
+            this.labelNationality.Location = new System.Drawing.Point(126, 261);
+            this.labelNationality.Name = "labelNationality";
+            this.labelNationality.Size = new System.Drawing.Size(74, 17);
+            this.labelNationality.TabIndex = 7;
+            this.labelNationality.Text = "Nationality";
             // 
-            // label4
+            // labelBirthdate
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(126, 216);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 17);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "BirthDate";
+            this.labelBirthdate.AutoSize = true;
+            this.labelBirthdate.Location = new System.Drawing.Point(126, 216);
+            this.labelBirthdate.Name = "labelBirthdate";
+            this.labelBirthdate.Size = new System.Drawing.Size(67, 17);
+            this.labelBirthdate.TabIndex = 6;
+            this.labelBirthdate.Text = "BirthDate";
             // 
-            // label5
+            // labelTeamNumber
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(126, 346);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(98, 17);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Team Number";
+            this.labelTeamNumber.AutoSize = true;
+            this.labelTeamNumber.Location = new System.Drawing.Point(126, 346);
+            this.labelTeamNumber.Name = "labelTeamNumber";
+            this.labelTeamNumber.Size = new System.Drawing.Size(98, 17);
+            this.labelTeamNumber.TabIndex = 9;
+            this.labelTeamNumber.Text = "Team Number";
             // 
-            // label6
+            // labelTeam
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(126, 301);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 17);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Team";
+            this.labelTeam.AutoSize = true;
+            this.labelTeam.Location = new System.Drawing.Point(126, 301);
+            this.labelTeam.Name = "labelTeam";
+            this.labelTeam.Size = new System.Drawing.Size(44, 17);
+            this.labelTeam.TabIndex = 8;
+            this.labelTeam.Text = "Team";
             // 
             // buttonSave
             // 
@@ -188,7 +188,7 @@ namespace W13Praktikum
             this.dateTimePickerBirthDate.Location = new System.Drawing.Point(226, 213);
             this.dateTimePickerBirthDate.Name = "dateTimePickerBirthDate";
             this.dateTimePickerBirthDate.Size = new System.Drawing.Size(258, 22);
-            this.dateTimePickerBirthDate.TabIndex = 15;            
+            this.dateTimePickerBirthDate.TabIndex = 15;
             // 
             // textBoxName
             // 
@@ -236,10 +236,10 @@ namespace W13Praktikum
             this.Controls.Add(this.comboBoxTeam);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.buttonSave);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.labelTeamNumber);
+            this.Controls.Add(this.labelTeam);
+            this.Controls.Add(this.labelNationality);
+            this.Controls.Add(this.labelBirthdate);
             this.Controls.Add(this.labelPlayerName);
             this.Controls.Add(this.labelPlayerID);
             this.Controls.Add(this.buttonLast);
@@ -263,10 +263,10 @@ namespace W13Praktikum
         private System.Windows.Forms.Button buttonNext;
         private System.Windows.Forms.Label labelPlayerID;
         private System.Windows.Forms.Label labelPlayerName;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelNationality;
+        private System.Windows.Forms.Label labelBirthdate;
+        private System.Windows.Forms.Label labelTeamNumber;
+        private System.Windows.Forms.Label labelTeam;
         private System.Windows.Forms.Button buttonSave;
         private System.Windows.Forms.Button buttonCancel;
         private System.Windows.Forms.ComboBox comboBoxTeam;
